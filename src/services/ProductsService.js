@@ -11,7 +11,7 @@ const list = async (data) => {
         const search = data.search ? data.search : '';
         const category = data.category ? data.category : '';
         const page = data.page ? data.page : DEFAULT_PAGE;
-        const limit = 9;
+        const limit = 12;
         const sortKey = data.sortKey ? data.sortKey : 'title';
         const sortOrder = data.sortOrder ? data.sortOrder : 1;
         const conditions = {
