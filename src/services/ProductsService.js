@@ -39,9 +39,9 @@ const list = async (data) => {
         const populate = [
         ];
         const options = {
-            sort: {
-                [sortKey]: sortOrder,
-            },
+            // sort: {
+            //     [sortKey]: sortOrder,
+            // },
             page: page,
             limit: limit,
             lean: true,
